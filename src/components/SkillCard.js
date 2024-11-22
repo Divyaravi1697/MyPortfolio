@@ -1,8 +1,6 @@
 import React from 'react'
 import "./SkillCardStyle.css";
-import { CgCPlusPlus } from "react-icons/cg";
-import { DiGit } from "react-icons/di";
-import { SiVisualstudiocode, SiReact, SiReactrouter, SiBootstrap, SiFigma, SiInkscape } from "react-icons/si";
+import { SiReact, SiReactrouter, SiBootstrap, SiFigma } from "react-icons/si";
 import { TbBrandCss3, TbBrandJavascript, TbBrandHtml5 } from "react-icons/tb";
 import { IoLogoWindows, IoLogoNpm } from "react-icons/io"
 import { SiTailwindcss } from "react-icons/si";
