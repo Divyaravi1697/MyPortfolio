@@ -8,6 +8,8 @@ import {
   FaBars,
   FaTimes,
 } from "react-icons/fa";
+import { SiBehance } from "react-icons/si";
+
 
 export default function Navbar() {
   const [click, setClick] = useState(false);
@@ -16,7 +18,7 @@ export default function Navbar() {
   return (
     <nav className="header">
       <div className="logo">
-        <Link 
+        <Link
           activeClass="active"
           to="home"
           spy={true}
@@ -35,17 +37,17 @@ export default function Navbar() {
       >
         <li>
           <Link
-          className="navLink"
+            className="navLink"
             activeClass="active"
             to="project"
             spy={true}
             smooth={true}
             duration={30}
-          >Projects</Link>
+          >Portfolio</Link>
         </li>
         <li>
           <Link
-          className="navLink"
+            className="navLink"
             activeClass="active"
             to="about"
             spy={true}
@@ -55,7 +57,7 @@ export default function Navbar() {
         </li>
         <li>
           <Link
-          className="navLink" 
+            className="navLink"
             activeClass="active"
             to="skills"
             spy={true}
@@ -64,7 +66,7 @@ export default function Navbar() {
         </li>
         <li>
           <Link
-          className="navLink"
+            className="navLink"
             activeClass="active"
             to="contact"
             spy={true}
@@ -75,7 +77,7 @@ export default function Navbar() {
       </ul>
       <div className={click ? "social-links active" : "social-links"}>
         <a
-          href="https://www.linkedin.com/in/deepajha14/"
+          href="https://www.linkedin.com/in/divya-ravi-r-r/"
           target="_blank"
           rel="noopener noreferrer"
         >
@@ -86,18 +88,18 @@ export default function Navbar() {
           />
         </a>
         <a
-          href="https://github.com/Deepajha14"
+          href="https://www.behance.net/divyaravi1697"
           target="_blank"
           rel="noopener noreferrer"
         >
-          <FaGithub
+          <SiBehance
             className="social"
             size={25}
             style={{ marginRight: "2rem" }}
           />
         </a>
         <a
-          href="https://www.instagram.com/artsydeepa/"
+          href="https://www.instagram.com/divyaravii1610/"
           target="_blank"
           rel="noopener noreferrer"
         >

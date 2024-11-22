@@ -13,55 +13,49 @@ import AnimatedCursor from "react-animated-cursor"
 function App() {
   return (
     <>
-    <AnimatedCursor
-      color="#fff"
-      innerSize={8}
-      outerSize={50}
-      innerScale={1}
-      outerScale={2.2}
-      outerAlpha={0}
-      outerStyle={{
-        background: '#ffffff',
-        mixBlendMode: 'exclusion'
-      }}
-      innerStyle={{
-        backgroundColor: '#F94892'
-      }}
-    />
-    <div>
-      <Navbar />
-      <HomeBanner id = "home"/>
-      <ProjectCard
-        id = "project"
-        className = "odd"
-        projectTitle="Wiggles: Pet Care Made Easy"
-        projectDesc="A one-stop solution for pet data management, automated vaccinations, QR-based lost pet recovery, and organizing pet playdates."
-        projectLink="https://github.com/DevanshSahni/Wiggles"
-        deployedProjectLink="https://wiggles.vercel.app"
-        projectImg={require('./images/projectWiggles.jpg')}
+      <AnimatedCursor
+        color="#fff"
+        innerSize={8}
+        outerSize={50}
+        innerScale={1}
+        outerScale={2.2}
+        outerAlpha={0}
+        outerStyle={{
+          background: '#ffffff',
+          mixBlendMode: 'exclusion'
+        }}
+        innerStyle={{
+          backgroundColor: '#F94892'
+        }}
       />
+      <div>
+        <Navbar />
+        <HomeBanner id="home" />
+        <ProjectCard
+          id="project"
+          className="odd"
+          projectTitle="Sleep tracking Application"
+          projectDesc="Designed to monitors sleep patterns, provides insights, and suggests personalized tips for better rest. With real-time tracking, smart alarms, and visual reports, it helps users achieve optimal sleep health effortlessly."
+          projectImg={require('./images/projectSleepTracking.jpg')}
+        />
 
-      <ProjectCard
-        projectTitle="Animated Card: featuring the latest glassmorphism trend"
-        projectDesc="React JS provided me the flexibility needed to create an interactive card with a glass-like effect, which adds a sense of depth and dimension to the user interface"
-        projectLink="https://github.com/Deepajha14/Touch-me-not-Card"
-        deployedProjectLink="https://deepajha14.github.io/Touch-me-not-Card/"
-        projectImg={require('./images/projectGlassmorphism.png')}
-      />
+        <ProjectCard
+          projectTitle="GCP Dashboard"
+          projectDesc="Designed to provide a centralized view of Google Cloud resources, metrics, and usage insights. It features real-time monitoring, interactive charts, and management tools for streamlined cloud operations."
+          projectImg={require('./images/projectGCP.png')}
+        />
 
-      <ProjectCard
-        className = "odd"
-        projectTitle="Rog-free: accessible anytime, anywhere"
-        projectDesc="An approach to target and heal specific health conditions by transforming the living room into a yoga studio"
-        projectLink="https://github.com/Deepajha14/Rog-Free"
-        deployedProjectLink="https://deepajha14.github.io/Rog-Free/"
-        projectImg={require('./images/projectRogfree.png')}
-      />
-      <AboutMe id = 'about' />
-      <SkillCard id = 'skills' />
-      <ContactForm id = 'contact' />
-      <Footer />
-    </div>
+        <ProjectCard
+          className="odd"
+          projectTitle="Shopping Web Application"
+          projectDesc="Designed and developed to offer a seamless online shopping experience with a modern UI and responsive design. It includes features like product browsing, secure checkout, and user account management, optimized for speed and accessibility"
+          projectImg={require('./images/projectShopping.png')}
+        />
+        <AboutMe id='about' />
+        <SkillCard id='skills' />
+        <ContactForm id='contact' />
+        <Footer />
+      </div>
     </>
   );
 }
