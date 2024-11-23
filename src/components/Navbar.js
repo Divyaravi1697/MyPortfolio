@@ -63,16 +63,7 @@ export default function Navbar() {
             smooth={true}
             duration={30}>Skills</Link>
         </li>
-        <li>
-          <Link
-            className="navLink"
-            activeClass="active"
-            to="contact"
-            spy={true}
-            smooth={true}
-            duration={30}
-          >Contact</Link>
-        </li>
+
       </ul>
       <div className={click ? "social-links active" : "social-links"}>
         <a

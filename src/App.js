@@ -53,7 +53,6 @@ function App() {
         />
         <AboutMe id='about' />
         <SkillCard id='skills' />
-        <ContactForm id='contact' />
         <Footer />
       </div>
     </>
