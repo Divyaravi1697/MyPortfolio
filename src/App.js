@@ -6,7 +6,6 @@ import HomeBanner from "./components/HomeBanner";
 import ProjectCard from './components/ProjectCard'
 import AboutMe from './components/AboutMe'
 import SkillCard from './components/SkillCard'
-import ContactForm from './components/ContactForm'
 import AnimatedCursor from "react-animated-cursor"
 
 
