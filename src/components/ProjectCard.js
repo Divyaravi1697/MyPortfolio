@@ -3,9 +3,6 @@ import "./ProjectCardStyle.css";
 import Tilt from 'react-parallax-tilt';
 
 export default function ProjectCard(props) {
-  const handleOnClick = () => {
-    window.open(`${props.projectLink}`);
-  }
 
   return (
     <div className='project-window' id={props.id}>
