@@ -2,7 +2,6 @@ import React, { useState } from "react";
 import "./NavbarStyle.css";
 import { Link } from "react-scroll";
 import {
-  FaGithub,
   FaInstagram,
   FaLinkedin,
   FaBars,
